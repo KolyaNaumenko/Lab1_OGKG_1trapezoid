@@ -243,8 +243,8 @@ def vert_sort(arr: List[Point]):
 # Main function to run the algorithm
 def run():
     vertices = [
-        Point(0, 1.5), Point(1, 3.5), Point(3.5, 4),
-        Point(5, 2), Point(2.5, 0)
+        Point(0, 0.5), Point(1, 2.5), Point(5.5, 4),
+        Point(4, 2), Point(3.5, 0)
     ]
     edges = [
         Edge(vertices[0], vertices[1]), Edge(vertices[1], vertices[2]),
